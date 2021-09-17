@@ -16,8 +16,24 @@
 
 .add-nombres button{
     height: 30px;
-    width: 60px;
+    width: 70px;
     align-self: center;
+    background: transparent;
+    border: 1px solid #000;
+}
+
+.save-boton{
+    padding: 5px;
+    width: 60%;
+    background: transparent;
+    border: 1px solid #000;
+}
+
+.delete-boton{
+    width: 60%;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #000;
 }
 
 .nombres{
@@ -33,6 +49,8 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .nombres div h2{
